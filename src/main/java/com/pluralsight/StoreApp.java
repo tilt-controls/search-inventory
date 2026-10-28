@@ -37,4 +37,12 @@ public class StoreApp {
             System.out.println(product.toCSV());
         }
     }
+    public static void displaySort(ArrayList<Product> products) {
+        Collections.sort(products, Comparator.comparing(Product::getName));
+
+        for (Product product : products) {
+            System.out.println(product.toCSV());
+        }
+        }
+    }
 }
