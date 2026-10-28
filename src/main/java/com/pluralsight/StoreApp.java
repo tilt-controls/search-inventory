@@ -84,28 +84,22 @@ public class StoreApp {
             scanner.nextLine();
             System.out.println();
             switch (command) {
-                case 1:
+                case 1 -> {
                     System.out.println("ID|NAME|PRICE");
                     displaySort(products);
                     System.out.println();
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     lookUpId(products);
                     System.out.println();
-                    break;
-                case 3:
-                    System.out.println("Finding all products within a price range");
-                    break;
-                case 4:
-                    System.out.println("Adding a new product!");
-                    break;
-                case 5:
+                }
+                case 3 -> System.out.println("Finding all products within a price range");
+                case 4 -> System.out.println("Adding a new product!");
+                case 5 -> {
                     System.out.println("Quitting application!");
                     active = false;
-                    break;
-                default:
-                    System.out.println("Invalid choice!\n");
-                    break;
+                }
+                default -> System.out.println("Invalid choice!\n");
             }
         }
     }
