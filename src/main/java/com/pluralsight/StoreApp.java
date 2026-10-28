@@ -10,6 +10,10 @@ public class StoreApp {
         inventory.add(new Product("13", "Orange", 1.49));
         inventory.add(new Product("14", "Mango", 3.99));
 
+        System.out.println("==Products==");
+        for (Product product : inventory) {
+            System.out.println(product.getName());
+        }
         
     }
     public static ArrayList<Product> getInventory() {
