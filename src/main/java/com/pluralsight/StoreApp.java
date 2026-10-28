@@ -93,6 +93,19 @@ public class StoreApp {
                     lookUpId(products);
                     System.out.println();
                     break;
+                case 3:
+                    System.out.println("Finding all products within a price range");
+                    break;
+                case 4:
+                    System.out.println("Adding a new product!");
+                    break;
+                case 5:
+                    System.out.println("Quitting application!");
+                    active = false;
+                    break;
+                default:
+                    System.out.println("Invalid choice!\n");
+                    break;
             }
         }
     }
