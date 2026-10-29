@@ -16,9 +16,9 @@
 
 ## Screenshots
 
-![The home screen](![](/Users/jpmorgan/Downloads/Screenshot 2026-10-29 at 3.48.32 PM.png))
+![The home screen](![img_1.png](img_1.png))
 
-![App lists all products](![](/Users/jpmorgan/Downloads/Screenshot 2026-10-29 at 3.49.56 PM.png))
+![App lists all products](![img.png](img.png))
 
 ## Interesting code
 
